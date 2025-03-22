@@ -166,13 +166,14 @@ a.address-text {
 {
     display: flex;
     align-items:center;
-    /* gap:76px; */
+     /* gap:76px;  */
 }
 
 .header-container
 {
     display: flex;
     justify-content:space-between;
+    padding: 24px 0;
 }
 .header-border
 {
@@ -216,6 +217,9 @@ a.address-text {
 {
     width:calc((100% - 72px) / 4);
 }
+.aboutus-item .subtitle {
+    margin-bottom: 8px;
+}
 /* ---------Section-Team----------- */
 .section-team 
 {
@@ -231,7 +235,8 @@ a.address-text {
 }
 li.section-team
 {
-background-color:#FFFFFF; 
+background-color:#FFFFFF;
+border-radius: 0px 0px 4px 4px;
 }
 .team-list {
     display: flex;
