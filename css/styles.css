@@ -156,7 +156,9 @@ a.address-text {
     line-height: 1.5;
     letter-spacing: 0.02em;
     display: flex;
+    padding: 24px 0;
     gap: 40px;
+    
 }
 .navigation-item
 {
@@ -166,7 +168,7 @@ a.address-text {
 {
     display: flex;
     align-items:center;
-    padding: 24px 0;
+    /* padding: 24px 0; */
      /* gap:76px;  */
 }
 .header-container
