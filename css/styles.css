@@ -166,20 +166,23 @@ a.address-text {
 {
     display: flex;
     align-items:center;
+    padding: 24px 0;
      /* gap:76px;  */
 }
-
 .header-container
 {
     display: flex;
     justify-content:space-between;
-    padding: 24px 0;
 }
 .header-border
 {
     border-bottom: 1px solid #e7e9fc;
 }
 
+.address-navigation
+{
+    padding: 24px 0;
+}
 
 /* ---------Section-Solutions----------- */
 .section-solutions
@@ -236,7 +239,6 @@ a.address-text {
 li.section-team
 {
 background-color:#FFFFFF;
-border-radius: 0px 0px 4px 4px;
 }
 .team-list {
     display: flex;
