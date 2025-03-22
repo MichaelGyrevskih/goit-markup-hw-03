@@ -110,14 +110,13 @@ a.address-text {
 
 .container {
     width: 1158px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 0 15px;
     margin: 0 auto;
 }
 
 .section
 {
-    padding:120px;
+    padding: 120px 0;
 }
 /* ---------Section-Head----------- */
 .logo
@@ -130,6 +129,7 @@ a.address-text {
         letter-spacing:0.03em;
         text-transform: uppercase;
         color: #4d5ae5;
+        margin-right: 76px;
 }
 
 .head-span{
@@ -158,19 +158,25 @@ a.address-text {
     display: flex;
     gap: 40px;
 }
+.navigation-item
+{
+    padding: 24px 0;
+}
 .header-navigation
 {
     display: flex;
     align-items:center;
-    gap:76px;
+    /* gap:76px; */
 }
 
 .header-container
 {
     display: flex;
     justify-content:space-between;
-    padding-top: 24px;
-    padding-bottom: 24px;
+}
+.header-border
+{
+    border-bottom: 1px solid #e7e9fc;
 }
 
 
@@ -178,6 +184,7 @@ a.address-text {
 .section-solutions
 {
   background: #2e2f42;
+  padding: 188px 0;
 }
 .section-solutions .title
 {
@@ -232,10 +239,9 @@ background-color:#FFFFFF;
 }
 .team-border
 {
-    border-radius: 0 0 0.25rem 0.25rem;
+    border-radius: 0px 0px 4px 4px;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-    padding-bottom:30px;
-    padding-top:30px;
+    padding: 32px 0;
 }
  .section-team .subtitle
  {
@@ -243,6 +249,11 @@ background-color:#FFFFFF;
     margin-bottom: 8px;
     margin-top: 32px;
  }
+ .team-list .subtitle
+ {
+ margin-bottom: 8px;
+ }
+ 
  
 /* ---------Section-Portfolio-----------*/
 .portfolio-list {
@@ -253,14 +264,17 @@ background-color:#FFFFFF;
 .portfolio-item {
       width: calc((100% - 48px) / 3);
  } 
+ .portfolio-item .subtitle
+ {
+    margin-bottom: 8px;
+ }
 .portfolio-border
 {
     border-bottom: 1px solid #e7e9fc;
     border-left: 1px solid #e7e9fc;
     border-right: 1px solid #e7e9fc;
     padding-bottom: 30px;
-    padding-top: 30px;
-    padding-left: 16px;
+    padding: 32px 16px
 }
 
    .portfolio-headline
@@ -270,6 +284,7 @@ background-color:#FFFFFF;
 /* ---------Section-Footer----------- */
 .footer {
     background: #2e2f42;
+    padding: 100px 0;
 }
 
 .foot-span {
@@ -288,7 +303,11 @@ background-color:#FFFFFF;
     line-height: 1.5;
     letter-spacing: 0.02em;
     max-width: 264px;
-    margin-top: 16px;
+}
+.footer .link
+{
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 /* .logo-foot {
