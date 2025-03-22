@@ -65,8 +65,9 @@ h6 {
     letter-spacing: 0.02em;
     /* color: #434455; */
 }
-a.navigacion-text {
+a.navigation-text {
     color: #2e2f42;
+    padding: 24px 0;
 }
 /* img */
 .photo
@@ -238,9 +239,11 @@ a.address-text {
 {
  text-align: center;
 }
-li.section-team
-{
-background-color:#FFFFFF;
+
+.team-item {
+    background-color: #FFFFFF;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
 }
 .team-list {
     display: flex;
