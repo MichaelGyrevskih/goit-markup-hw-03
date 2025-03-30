@@ -65,10 +65,7 @@ h6 {
     letter-spacing: 0.02em;
     /* color: #434455; */
 }
-a.navigation-text {
-    color: #2e2f42;
-    padding: 24px 0;
-}
+
 /* img */
 .photo
 {
@@ -83,9 +80,7 @@ a.navigation-text {
     /* color: #434455; */
 }
 
-a.address-text {
-    color: #434455;
-}
+
 
 .link:hover,
 .link:focus
@@ -157,14 +152,13 @@ a.address-text {
     line-height: 1.5;
     letter-spacing: 0.02em;
     display: flex;
-    padding: 24px 0;
     gap: 40px;
     
 }
-.navigation-item
+ .navigation-item
 {
     padding: 24px 0;
-}
+} 
 .header-navigation
 {
     display: flex;
@@ -182,11 +176,17 @@ a.address-text {
     border-bottom: 1px solid #e7e9fc;
 }
 
-.address-navigation
-{
-    padding: 24px 0;
-}
 
+a.navigation-text {
+    color: #2e2f42;
+    padding: 24px 0;
+    display: block;
+}
+a.address-text {
+    color: #434455;
+    padding: 24px 0;
+    display: block;
+}
 /* ---------Section-Solutions----------- */
 .section-solutions
 {
@@ -197,7 +197,7 @@ a.address-text {
 {
     /* padding: 188px 20px 292px; */
     max-width: 496px;
-    margin: 0 auto 32px;
+    margin: 0 auto 42px;
     text-align: center;
 }
 .solutions-button {
@@ -253,13 +253,15 @@ a.address-text {
 {
     border-radius: 0px 0px 4px 4px;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-    padding: 32px 0;
+}
+.team-div
+{
+padding: 32px 0;
 }
  .section-team .subtitle
  {
     text-align: center;
     margin-bottom: 8px;
-    margin-top: 32px;
  }
  .team-list .subtitle
  {
@@ -285,7 +287,6 @@ a.address-text {
     border-bottom: 1px solid #e7e9fc;
     border-left: 1px solid #e7e9fc;
     border-right: 1px solid #e7e9fc;
-    padding-bottom: 30px;
     padding: 32px 16px
 }
 
@@ -308,6 +309,7 @@ a.address-text {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #f4f4fd;
+    margin-bottom: 0px !important;;
 }
 
 .foot-text {
@@ -320,6 +322,11 @@ a.address-text {
 {
     display: inline-block;
     margin-bottom: 16px;
+}
+
+.footer .logo
+{
+margin-right:0;
 }
 
 /* .logo-foot {
